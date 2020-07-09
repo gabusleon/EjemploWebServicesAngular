@@ -1,0 +1,7 @@
+<hr>
+<div *ngFor='let client of clients'>  
+  <h2>{{ client['person-name'] | uppercase }}</h2>
+  <p>{{ client.email }}</p>
+  <p>{{ client.registeredDate }}</p>
+  <p>{{ client.salary }}</p>
+</div>

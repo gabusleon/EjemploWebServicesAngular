@@ -1,3 +1,17 @@
+# Ejemplo de Consumo de Servicios Web RestFul (JEE) usando Angular
+
+En este programa se realiza un ejemplo del consumo de Servicios Web REST usando Angular. Este ejemplo se complementa con el repositorio [EjemploWebServicesJava](https://github.com/gabusleon/EjemploWebServicesJava) a través del cuál se proveen servicios web usando tecnología JEE.
+
+## versiones
+* Angular=5.2.0
+
+
+## Instalación
+1. npm install
+2. ng serve
+3. Iniciar el servidor glassfish ([EjemploWebServicesJava](https://github.com/gabusleon/EjemploWebServicesJava))
+
+
 # Angular9ups
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.

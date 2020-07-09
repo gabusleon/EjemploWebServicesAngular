@@ -1,0 +1,6 @@
+<div *ngFor='let bodega of bodegas'>  
+  <h2>{{ bodega.id }}</h2>
+  <p>{{ bodega.name }}</p>
+  <p>{{ bodega.description }}</p>  
+  <a [routerLink]="['/categorias/', bodega.id]" >Seleccionar categoria</a>
+</div>
